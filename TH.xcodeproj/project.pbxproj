@@ -556,7 +556,8 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Raul Dominguez (7VTY58SFNF)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Raul Dominguez (7VTY58SFNF)";
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_THUMB_SUPPORT = NO;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
@@ -583,6 +584,8 @@
 					"-Obj-C",
 				);
 				PRODUCT_NAME = TerritorioH;
+				PROVISIONING_PROFILE = "B14F3CDC-79E0-4C04-A231-59107EFDB3FC";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "B14F3CDC-79E0-4C04-A231-59107EFDB3FC";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = NO;
 				USER_HEADER_SEARCH_PATHS = "";
