@@ -43,6 +43,7 @@
 		UISegmentedControl *datePickerCloseButton = [self createActionSheetCloseButton:@"OK" target:self action:@selector(dismissActionSheet:)];
 		NSDateFormatter *isoTimeFormatter = [self createISODateFormatter:k_DATEPICKER_DATETIME_FORMAT timezone:[NSTimeZone defaultTimeZone]];
 
+        userDatePicker.backgroundColor = [UIColor whiteColor];
 		self.datePicker = userDatePicker;
 		self.isoDateFormatter = isoTimeFormatter;
 
@@ -146,7 +147,7 @@
 	closeButton.momentary = YES; 
 	closeButton.frame = CGRectMake(260, 7.0f, 50.0f, 30.0f);
 	closeButton.segmentedControlStyle = UISegmentedControlStyleBar;
-	closeButton.tintColor = [UIColor blueColor];
+	closeButton.tintColor = [UIColor blackColor];
 
 	[closeButton addTarget:target action:action forControlEvents:UIControlEventValueChanged];
 
